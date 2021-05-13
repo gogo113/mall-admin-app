@@ -18,7 +18,7 @@
           @change="handleChange"
           allowClear
         >
-          <a-select-option v-for="c in data" :key="c.id" :value="c.name">
+          <a-select-option v-for="c in data" :key="c.id" :value="c.id">
             {{c.name}}
           </a-select-option>
         </a-select>
